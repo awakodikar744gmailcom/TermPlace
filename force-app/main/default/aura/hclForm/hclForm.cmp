@@ -1,7 +1,9 @@
 <aura:component implements="force:appHostable,force:hasRecordId,force:lightningQuickAction,
 flexipage:availableForAllPageTypes,flexipage:availableForRecordHome" access="global">
 
-    <lightning:card title="abc">
+    <lightning:card title="outer card">
+        <lightning:card title="inner card">
 
+        </lightning:card>
     </lightning:card>
 </aura:component>
