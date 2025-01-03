@@ -3,7 +3,9 @@ flexipage:availableForAllPageTypes,flexipage:availableForRecordHome" access="glo
 
     <lightning:card title="outer card">
         <lightning:card title="inner card">
-
+            <div style="margin:10px;border:1px solid black;">
+                <p>This is Paragraph</p>
+            </div>
         </lightning:card>
     </lightning:card>
 </aura:component>
